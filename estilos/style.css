@@ -10,10 +10,16 @@
     width: 100vw;
     background-color: black;
    }
+   body {
+    background: url('../imagens/fundo-madeira.jpg')no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   }
    main {
     position: relative;
     height: 100vw;
-    background-color: green;
+    
    }
 
    section#telefone {
@@ -21,8 +27,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
-    width: 500px;
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
     
 
    }
