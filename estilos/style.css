@@ -13,15 +13,12 @@
    body {
     background: url('../imagens/fundo-madeira.jpg')no-repeat ;
     background-size: cover;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;  
    }
    main {
     position: relative;
-    height: 100vw;
-    
+    height: 100vw; 
    }
-
    section#telefone {
     position: absolute;
     top: 50%;
@@ -30,6 +27,13 @@
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+    }
+    iframe#tela {
+        position: relative;
+        top: 80px;
+        left: 22px;
+        width: 269px;
+        height: 471px;
     
 
-   }
+    }
